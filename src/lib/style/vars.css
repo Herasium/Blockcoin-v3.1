@@ -1,0 +1,60 @@
+:root {
+    --background-data: black;
+    --background-blur: 200px;
+    --background-elipse-display: block;
+    --background-elipse-1-color:#B803FF;
+    --background-elipse-2-color:#0771FF;
+    --navbar-blur: 10px;
+    --navbar-background: none;
+    --navbar-border:none;
+    --navbar-border-radius:none;
+    --text-color:white;
+    --input-color:rgb(156, 156, 156);
+    --text-font:'Poppins';
+    --text-size-1:1vw;
+    --text-size-2:1.5vw;
+    --text-size-3:2vw;
+    --text-size-3-5:2.5vw;
+    --text-size-4:3vw;
+    --text-size-5:4vw;
+    --text-size-6:6vw;
+    --text-weight-thin:300;
+    --text-weight-normal:400;
+    --text-weight-bold:700;
+    --text-weight-black:900;
+    --picture-size: 48px;
+    --post-background: black;
+    --post-border:solid white 1px;
+    --post-radius:16px;
+    --badge-color: white;
+    --badge-border: none;
+    --bagde-background: none;
+    --badge-radius: none;
+    --global-border: solid white 1px;
+    --global-border-radius-1: 16px;
+    --global-border-radius-2: 32px;
+    --global-border-radius-3: 64px;
+}
+
+@media screen and (max-width: 550px) {
+    :root {
+        --text-size-1:3vw;
+        --text-size-2:5vw;
+        --text-size-3:6vw;
+        --text-size-4:8vw;
+        --text-size-5:10vw;
+        --text-size-6:14vw;
+    } 
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 550px){
+    :root {
+        --text-size-1:2vw;
+        --text-size-2:3vw;
+        --text-size-3:4vw;
+        --text-size-4:6vw;
+        --text-size-5:8vw;
+        --text-size-6:12vw;
+    }
+}
